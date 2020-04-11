@@ -1,2 +1,2 @@
-# Astro_results
-output score details of individuals after reading a google doc with the results
+Darkishbackground:-
+background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);

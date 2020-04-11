@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  background: url("../Images/sky_turned.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box{
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 24px;
+  background: #191919;
+  text-align: center;
+}
+.box h1{
+  color:#C0C0C0 ;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type="text"],.box input[type="email"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="email"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.icon{
+  height: 200px;
+  position: relative;
+}
+
+.button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  border-radius: 26px;
+  transition: 0.25s;
+}
+
+.button:focus{
+  width: 160px;
+  border-color: #2ecc71;
+}
+
+.text{
+  color:#C0C0C0 ;
+  text-align:center;
+}

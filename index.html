@@ -2,19 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Messier Marathon</title>
-
+    <title>Results</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <input type="text" name="email" value="" id="email" placeholder="Enter email here">
-    <button type="button" name="button" id="button">Submit</button>
-    <br>
-    <br>
-    <ul id=result>
-    </ul>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <form class="box" action="index.html" method="post">
+      <div class="head">
+        <span><h1>Messier Marathon</h1></span>
+        <span><h1>Results</h1></span>
+      </div>
+      <br>
+      <br>
+      <input type="text" name="email" value="" id="email" placeholder="Enter email here">
+      <button class="button" type="button" name="button" id="button">Submit</button>
+      <br>
+      <br>
+      <p class="text" id=result>
+      </p>
+    </form>
+
+
 
     <script type="text/javascript" src="system/jquery.min.js"> </script>
     <script src="system/stein.js"></script>
-    <script src="search.js"></script>
+    <script src="controller/search.js"></script>
   </body>
 </html>
